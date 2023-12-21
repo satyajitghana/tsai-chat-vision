@@ -33,3 +33,5 @@ The model in the backend is `llava-hf/bakLlava-v1-hf`
 ![ui-1](assets/llava-1.jpg)
 
 ![ui-2](assets/llava-2.jpg)
+
+![ui-3](assets/llava-3.jpg)
