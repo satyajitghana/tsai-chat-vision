@@ -116,7 +116,7 @@ const getStreamedResponse = async (
       role: "assistant",
     };
 
-    async function readRow(promise: Promise<ReactResponseRow>) {
+    const readRow = async (promise: Promise<ReactResponseRow>) => {
       const { content, ui, next } = await promise;
 
       // TODO: Handle function calls.
@@ -128,7 +128,7 @@ const getStreamedResponse = async (
       if (next) {
         await readRow(next);
       }
-    }
+    };
 
     try {
       const promise = api({
