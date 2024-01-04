@@ -8,7 +8,6 @@ export const siteConfig = {
     twitter: "https://twitter.com/thesudoer_",
     github: "https://github.com/satyajitghana/tsai-chat-vision",
   },
-  // modelBackend: "https://rnhzc-49-207-249-85.a.free.pinggy.online/v1",
   modelBackend: "https://api.theschoolof.ai/v1",
 };
 
